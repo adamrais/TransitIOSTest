@@ -22,3 +22,8 @@ https://api.transitapp.com/v3/feeds?detailed=1
 
 The code should be published on GitHub or Bitbucket so we can easily look at it. You may use
 Objective-C or Swift.
+
+ScreenShots of the app
+
+[![Transit-App-Test.png](https://i.postimg.cc/DwSPfDnd/Transit-App-Test.png)](https://postimg.cc/ZWhdVw9C)
+[![Transit-App-Test2.png](https://i.postimg.cc/1trpY1rP/Transit-App-Test2.png)](https://postimg.cc/gXrXn57B)
