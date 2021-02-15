@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		AB5AC93A555A7E76890FBC10 /* Pods_TransitIOSTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D75E189C02726C572D198BE1 /* Pods_TransitIOSTest.framework */; };
-		E550C74325DAF4B100BB2D44 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E550C74225DAF4B100BB2D44 /* Info.plist */; };
 		E56BA9AC25D6F4AB00827E15 /* Feeds.json in Resources */ = {isa = PBXBuildFile; fileRef = E56BA9AB25D6F4AB00827E15 /* Feeds.json */; };
 		E56BA9AF25D6F6AB00827E15 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56BA9AE25D6F6AB00827E15 /* Feed.swift */; };
 		E589D2C925D5D30B002DFB9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E589D2C825D5D30B002DFB9F /* AppDelegate.swift */; };
@@ -24,7 +23,7 @@
 		3C2E874D3927F9FB29EFA248 /* Pods-TransitIOSTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TransitIOSTest.debug.xcconfig"; path = "Target Support Files/Pods-TransitIOSTest/Pods-TransitIOSTest.debug.xcconfig"; sourceTree = "<group>"; };
 		7C7B45843E092AC025384ACA /* Pods-TransitIOSTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TransitIOSTest.release.xcconfig"; path = "Target Support Files/Pods-TransitIOSTest/Pods-TransitIOSTest.release.xcconfig"; sourceTree = "<group>"; };
 		D75E189C02726C572D198BE1 /* Pods_TransitIOSTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TransitIOSTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E550C74225DAF4B100BB2D44 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E550C76225DAF7E200BB2D44 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/Info.plist"; sourceTree = "<group>"; };
 		E56BA9AB25D6F4AB00827E15 /* Feeds.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Feeds.json; sourceTree = "<group>"; };
 		E56BA9AE25D6F6AB00827E15 /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
 		E589D2C525D5D30B002DFB9F /* TransitIOSTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransitIOSTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,7 +70,7 @@
 			children = (
 				E56BA9AB25D6F4AB00827E15 /* Feeds.json */,
 				E589D2D125D5D30D002DFB9F /* Assets.xcassets */,
-				E550C74225DAF4B100BB2D44 /* Info.plist */,
+				E550C76225DAF7E200BB2D44 /* Info.plist */,
 			);
 			path = Ressources;
 			sourceTree = "<group>";
@@ -187,7 +186,6 @@
 				E589D2D525D5D30D002DFB9F /* LaunchScreen.storyboard in Resources */,
 				E56BA9AC25D6F4AB00827E15 /* Feeds.json in Resources */,
 				E589D2D225D5D30D002DFB9F /* Assets.xcassets in Resources */,
-				E550C74325DAF4B100BB2D44 /* Info.plist in Resources */,
 				E589D2D025D5D30B002DFB9F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,7 +393,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3LRUWJ9R55;
-				INFOPLIST_FILE = TransitIOSTest/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -415,7 +413,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3LRUWJ9R55;
-				INFOPLIST_FILE = TransitIOSTest/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

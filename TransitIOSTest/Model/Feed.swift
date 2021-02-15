@@ -25,7 +25,24 @@ class Feed: NSObject, MKAnnotation {
         return #imageLiteral(resourceName: "pin")
     }
     
-    //MARK: - IBOutlet
+    var markerTintColor: UIColor? {
+        switch countryCode {
+        case "CA":
+            return UIColor(named: "Canada")
+        case "US":
+            return UIColor(named: "UnitedStates")
+        case "FR":
+            return UIColor(named: "France")
+        case "GB":
+            return UIColor(named: "UnitedKingdom")
+        case "DE":
+            return UIColor(named: "Germany")
+        default:
+            return UIColor(named: "OtherCountries")
+        }
+    }
+    
+    //MARK: - Initialization
     init(
         title: String?,
         city: String?,
@@ -58,22 +75,4 @@ class Feed: NSObject, MKAnnotation {
         return Feed(title: title, city: locationName, countryCode: countryCode, coordinate: coordinate)
         
     }
-    
-    var markerTintColor: UIColor? {
-        switch countryCode {
-        case "CA":
-            return UIColor(named: "Canada")
-        case "US":
-            return UIColor(named: "UnitedStates")
-        case "FR":
-            return UIColor(named: "France")
-        case "GB":
-            return UIColor(named: "UnitedKingdom")
-        case "DE":
-            return UIColor(named: "Germany")
-        default:
-            return UIColor(named: "OtherCountries")
-        }
-    }
-    
 }
