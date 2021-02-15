@@ -16,7 +16,9 @@ follows:
 - United Kingdom: #8BC34A
 - Germany: #FFC107
 - Other countries: #00BCD4
+
 To get the list of supported feeds, use this JSON API (note that this API updates daily):
 https://api.transitapp.com/v3/feeds?detailed=1
+
 The code should be published on GitHub or Bitbucket so we can easily look at it. You may use
 Objective-C or Swift.
